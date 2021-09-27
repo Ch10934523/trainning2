@@ -1,0 +1,279 @@
+.bg-container {
+    background-image: url("https://wallpaperaccess.com/full/1393237.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    text-align: center;
+}
+
+.third-part {
+    background-color: rgb(220, 233, 247);
+    background-size: cover;
+    padding: 20px;
+}
+
+.image2 {
+    height: 150px;
+    width: 90vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image3 {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4{
+    background-color: azure;
+    width: 100vw;
+    background-size: cover;
+}
+.spacing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph{
+    flex-wrap: wrap;
+}
+.line1 {
+    width: 200px;
+    height: 20px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading2{
+    text-align: center;
+}
+
+.card-container{
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    text-align: center;
+}
+
+.container4 {
+    background-color: rgb(88, 82, 82);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    
+}
+.button1 {
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.collapse1{
+    display: flex;
+    flex-direction: row;
+
+}
+.colors1 {
+    color: orange;
+}
+
+.coursels1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.button1 {
+    border: 2px solid orange;
+}
+
+.personimage {
+    height: 200px;
+    width: 80vw;
+    background-size: cover;
+}
+.card4-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.para4 {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card4 {
+    height: 350px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.pricingpara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addressheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertisecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.team-images {
+    width: 18rem;
+}
+
+.unorder {
+    display: flex;
+
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons23 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .bg-container {
+        height: 100vh;
+    }
+
+    .image1 {
+        height: 80px;
+        width: 80px;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    
+}
+
+@media (min-width: 992px) {
+    .container2part2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personimage {
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+    }
+
+    .team-images {
+        width: 13rem;
+    }
+   
+    
+}
+
+@media screen {
+    .bg-container {
+        background-image: url("https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+    }
+
+   
+} 
+
+
