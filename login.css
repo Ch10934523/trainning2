@@ -1,0 +1,147 @@
+.top-container {
+    background-color: black;
+    height: 10vh;
+    color: white;
+    display: flex;
+    background-size: cover;
+    font-size:19px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.first-part {
+    display: flex;
+    
+}
+.icons1 {
+    text-align: center;
+}
+
+.para1 {
+    width: 30vw;
+    font-size: 19px;
+
+}
+.inputbar1 {
+    height: 45px;
+    font-size: 25px;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+.bg-container{
+    background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading {
+    font-size:20px;
+}
+
+#checkboxid {
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+.cardcontainer {
+    background-color: white;
+    width: 75vw;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.checkboxprop{
+    display: flex;
+    flex-direction: row;
+}
+
+.button1{
+    border: 2px solid black;
+}
+.bottom2{
+    font-size: 25px;
+    color: white;
+
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+.leftaligning {
+    text-align: end;
+}
+
+.formheading {
+    font-size: 35px;
+}
+
+.inputbar {
+    height: 65px;
+    font-size: 32px;
+}
+
+@media screen {
+    .cardcontainer {
+        width: 50vw;
+        background-size: cover;
+    }
+
+    .formheading {
+        font-size: 20px;
+    }
+    
+    .inputbar {
+        height: 45px;
+        font-size: 25px;
+    }
+    .inputbar1 {
+        height: 45px;
+        font-size: 25px;
+    }
+    .top-container{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .para1 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .cardcontainer {
+        width: 70vw;
+        background-size: cover;
+    }
+
+
+
+
+}
