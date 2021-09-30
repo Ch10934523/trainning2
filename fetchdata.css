@@ -4,6 +4,7 @@
     
 }
 
+
 .body1 {margin: 15px;}
 
 .part1 {
@@ -13,12 +14,13 @@
 }
 
 .liststyle{
-    border: 2px solid red;
+    border: 2px solid orangered;
     margin-right: 10px;
     display: flex;
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
+    padding: 2px;
 
 }
 

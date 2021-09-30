@@ -6,13 +6,42 @@ let heading = document.getElementById("title1");
 let bodycontent = document.getElementById("bodycontent");
 let idnum = document.getElementById("idnumber");
 let unordered = document.getElementById("unordered");
-//let lista = document.getElementsByClassName("liststyle");
+let lista = document.getElementsByClassName("liststyle");
 
-//function changing_background(listid) {
+/*function changing_background(listid) {
 //    let value = document.getElementById(listid);
 //    value.style.backgroundColor = "pink";
- //   console.log(value)
-//}
+ //   console.log(value)}
+*/
+
+let idsarray = [];
+//console.log(idsarray)
+
+function changing_the_background_color(listid, arr1){
+
+    let element = document.getElementById(listid);
+
+    if (arr1.length >= 2){
+        let len2 = arr1.length;
+
+        let removeactive = document.getElementById(arr1[(len2-2)]);
+        removeactive.classList.remove("active");
+
+        let addactive = document.getElementById(arr1[(len2-1)]);
+        addactive.classList.add("active");
+    }
+
+    else {
+        element.classList.add("active");
+    }
+    
+
+    //element.classList.toggle("bg1");
+    //element.classList.toggle("bg1");
+    
+
+}
+
 
 
 function displaying_the_array(arr1) {
@@ -22,9 +51,14 @@ function displaying_the_array(arr1) {
     let listid = "list" + id;
 
     let list1= document.createElement("li");
-    list1.classList.add("liststyle");
+    list1.classList.add("liststyle", "list-group-item");
     list1.id = listid;
-    //list1.addEventListener("blur", changing_background(listid))
+    list1.name = "listing";
+    list1.onclick = function() {
+        idsarray.push(listid);
+        console.log(idsarray);
+        changing_the_background_color(listid, idsarray);
+    }
     unordered.appendChild(list1);
 
     let container1 = document.createElement("div");
